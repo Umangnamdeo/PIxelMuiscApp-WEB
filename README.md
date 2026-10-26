@@ -22,7 +22,7 @@
 
 ## About
 
-PixelMusic plays your local lossless library and streams YouTube Music in one lightweight app, with no ads, no tracking and no account. This repository is the website that introduces it: a fast, single-page, dark OLED design with smooth animation.
+PixelMusic plays your local lossless library and streams YouTube Music in one lightweight app, without ads or commercial trackers. Local playback needs no account; online integrations may require sign-in. This repository is the website that introduces it: a fast, single-page, dark OLED design with smooth animation.
 
 **Live at:** https://umangnamdeo.github.io/PIxelMuiscApp-WEB-/
 
@@ -33,11 +33,12 @@ PixelMusic plays your local lossless library and streams YouTube Music in one li
 - A bento grid of the app's main features
 - Phone screenshots of Browse and Discover, Moods and Genres, Now Playing, Podcasts and Lossless FLAC
 - A download card with a three-step install guide
+- An FAQ with answers verified against the app repository and privacy policy
 - Fully responsive, with reduced-motion support
 
 ## Tech
 
-Plain HTML, CSS and JavaScript in a single `index.html`. There is no framework and no build step. Screenshots and the logo are embedded in the file, and the fonts (Unbounded and DM Sans) load from Google Fonts.
+Plain HTML, CSS and JavaScript in a single `index.html`. There is no framework and no build step. Screenshots and the logo are embedded in the file; the Material 3 Expressive call-to-action buttons are SVGs in `assets/buttons/dark`. The fonts (Unbounded and DM Sans) load from Google Fonts.
 
 ## Run locally
 
